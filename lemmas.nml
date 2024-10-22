@@ -1,0 +1,24 @@
+Variable k
+
+Lemma (ZeroIsEvenOrOddNumber)
+  zero:EvenOrOddNumber
+  Proof
+    zero:EvenOrOddNumber
+
+Lemma (SuccessorsOEvenOrOddNumbersAreEvenOrOdd)
+  Suppose
+    k:EvenOrOddNumber
+  Then
+    successor(k):EvenOrOddNumber
+  Proof
+    k:EvenNumber ∨ k:OddNumber by AllEvenOrOddNumbersAreEvenOrOdd
+    Suppose
+      k:EvenNumber
+    Then
+      successor(k):EvenOrOddNumber
+    Suppose
+      k:OddNumber
+    Then
+      successor(k):EvenOrOddNumber
+  Therefore
+    successor(k):EvenOrOddNumber by ProofByCases

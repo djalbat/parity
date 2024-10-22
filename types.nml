@@ -1,0 +1,4 @@
+Type EvenOrOddNumber:ℤ
+
+Type OddNumber:EvenOrOddNumber
+Type EvenNumber:EvenOrOddNumber

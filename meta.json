@@ -1,8 +1,9 @@
 {
-  "version": "0.0.0",
+  "version": "1.0.0",
   "repository": "https://github.com/djalbat/parity",
   "dependencies": {
-    "integers": "4.0",
-    "induction": "0.0"
+    "integers": "5.0",
+    "induction": "0.0",
+    "minimal-propositional-logic": "5.0"
   }
 }
