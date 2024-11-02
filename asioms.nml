@@ -1,7 +1,4 @@
 Variable n
 
 Axiom (AllEvenOrOddNumbersAreEvenOrOdd)
-  Suppose
-    n:EvenOrOddNumber
-  Then
-    n:EvenNumber ∨ n:OddNumber
+  n:EvenOrOddNumber ⇒ (n:EvenNumber ∨ n:OddNumber)

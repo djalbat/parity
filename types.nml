@@ -1,4 +1,4 @@
-Type EvenOrOddNumber:ℤ
+Type EvenOrOddNumber:ℕ
 
 Type OddNumber:EvenOrOddNumber
 Type EvenNumber:EvenOrOddNumber

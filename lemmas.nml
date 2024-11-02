@@ -1,4 +1,4 @@
-Variable k
+Variable k:ℕ
 
 Lemma (ZeroIsEvenOrOddNumber)
   zero:EvenOrOddNumber
@@ -6,19 +6,22 @@ Lemma (ZeroIsEvenOrOddNumber)
     zero:EvenOrOddNumber
 
 Lemma (SuccessorsOEvenOrOddNumbersAreEvenOrOdd)
-  Suppose
-    k:EvenOrOddNumber
-  Then
-    successor(k):EvenOrOddNumber
+  k:EvenOrOddNumber ⇒ successor(k):EvenOrOddNumber
   Proof
-    k:EvenNumber ∨ k:OddNumber by AllEvenOrOddNumbersAreEvenOrOdd
     Suppose
-      k:EvenNumber
+      k:EvenOrOddNumber
+    Hence
+      k:EvenOrOddNumber ⇒ (k:EvenNumber ∨ k:OddNumber) by AllEvenOrOddNumbersAreEvenOrOdd
+      k:EvenNumber ∨ k:OddNumber by ModusPonens
+      Suppose
+        k:EvenNumber
+      Then
+        successor(k):EvenOrOddNumber
+      Suppose
+        k:OddNumber
+      Then
+        successor(k):EvenOrOddNumber
     Then
-      successor(k):EvenOrOddNumber
-    Suppose
-      k:OddNumber
-    Then
-      successor(k):EvenOrOddNumber
+      successor(k):EvenOrOddNumber by ProofByCases
   Therefore
-    successor(k):EvenOrOddNumber by ProofByCases
+    k:EvenOrOddNumber ⇒ successor(k):EvenOrOddNumber by ConditionalProof
