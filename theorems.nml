@@ -1,20 +1,13 @@
 Variable n
-
-Metavariable ρ:Frame
-Metavariable σ(ℕ):Frame
-Metavariable τ(ℕ):Frame
+Variable k:ℕ
 
 Theorem (AllNaturalNumbersAreEvenOrOdd)
   Suppose 
     n:ℕ
   Then
-    ∃[τ(n)] [τ(n)] |- MetaInduction(n) :: n:EvenOrOddNumber
+    n:EvenOrOddNumber
   Proof
-    [] |- ZeroIsEvenOrOddNumber :: zero:EvenOrOddNumber
-    [ρ] is free in [] |- ZeroIsEvenOrOddNumber :: zero:EvenOrOddNumber
-    ∃[ρ] [ρ] |- ZeroIsEvenOrOddNumber :: zero:EvenOrOddNumber by MetaExistentialIntroduction
-    [AllEvenOrOddNumbersAreEvenOrOdd :: (n:EvenOrOddNumber ⇒ (n:EvenNumber ∨ n:OddNumber))] |- SuccessorsOEvenOrOddNumbersAreEvenOrOdd :: (n:EvenOrOddNumber ⇒ successor(n):EvenOrOddNumber)
-    [σ(n)] is free in [σ(n)] |- SuccessorsOEvenOrOddNumbersAreEvenOrOdd :: (n:EvenOrOddNumber ⇒ successor(n):EvenOrOddNumber)
-    ∃[σ(n)] [σ(n)] |- SuccessorsOEvenOrOddNumbersAreEvenOrOdd :: (n:EvenOrOddNumber ⇒ successor(n):EvenOrOddNumber) by MetaExistentialIntroduction
+    zero:EvenOrOddNumber by ZeroIsEvenOrOddNumber
+    k:EvenOrOddNumber ⇒ successor(k):EvenOrOddNumber by SuccessorsOEvenOrOddNumbersAreEvenOrOdd
   Therefore
-    ∃[τ(n)] [τ(n)] |- MetaInduction(n) :: n:EvenOrOddNumber by Induction
+    n:EvenOrOddNumber by Induction

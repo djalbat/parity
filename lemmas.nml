@@ -17,10 +17,12 @@ Lemma (SuccessorsOEvenOrOddNumbersAreEvenOrOdd)
         k:EvenNumber
       Then
         successor(k):EvenOrOddNumber
+      k:EvenNumber ⇒ successor(k):EvenOrOddNumber by ConditionalProof
       Suppose
         k:OddNumber
       Then
         successor(k):EvenOrOddNumber
+      k:OddNumber ⇒ successor(k):EvenOrOddNumber by ConditionalProof
     Then
       successor(k):EvenOrOddNumber by ProofByCases
   Therefore
