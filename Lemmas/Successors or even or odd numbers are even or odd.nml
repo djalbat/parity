@@ -1,10 +1,5 @@
 Variable k:ℕ
 
-Lemma (ZeroIsEvenOrOddNumber)
-  zero:EvenOrOddNumber
-  Proof
-    zero:EvenOrOddNumber
-
 Lemma (SuccessorsOEvenOrOddNumbersAreEvenOrOdd)
   k:EvenOrOddNumber ⇒ successor(k):EvenOrOddNumber
   Proof

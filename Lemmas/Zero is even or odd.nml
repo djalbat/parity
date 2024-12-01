@@ -1,0 +1,4 @@
+Lemma (ZeroIsEvenOrOddNumber)
+  zero:EvenOrOddNumber
+  Proof
+    zero:EvenOrOddNumber
