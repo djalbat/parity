@@ -5,9 +5,9 @@ Theorem (AllNaturalNumbersAreEvenOrOdd)
   Suppose 
     n:ℕ
   Then
-    n:EvenOrOddNumber
+    n:𝗘𝘃𝗲𝗻𝗢𝗿𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿
   Proof
-    zero:EvenOrOddNumber by ZeroIsEvenOrOddNumber
-    k:EvenOrOddNumber ⇒ successor(k):EvenOrOddNumber by SuccessorsOEvenOrOddNumbersAreEvenOrOdd
+    𝘻𝘦𝘳𝘰:𝗘𝘃𝗲𝗻𝗢𝗿𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿 by ZeroIsEvenOrOddNumber
+    k:𝗘𝘃𝗲𝗻𝗢𝗿𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿 ⇒ 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝗘𝘃𝗲𝗻𝗢𝗿𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿 by SuccessorsOEvenOrOddNumbersAreEvenOrOdd
   Therefore
-    n:EvenOrOddNumber by Induction
+    n:𝗘𝘃𝗲𝗻𝗢𝗿𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿 by Induction

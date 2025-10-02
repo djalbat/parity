@@ -1,4 +1,4 @@
 Lemma (ZeroIsEvenOrOddNumber)
-  zero:EvenOrOddNumber
+  𝘻𝘦𝘳𝘰:𝗘𝘃𝗲𝗻𝗢𝗿𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿
   Proof
-    zero:EvenOrOddNumber
+    𝘻𝘦𝘳𝘰:𝗘𝘃𝗲𝗻𝗢𝗿𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿

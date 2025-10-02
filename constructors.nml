@@ -1,4 +1,4 @@
-Constructor zero:EvenNumber
+Constructor 𝘻𝘦𝘳𝘰:𝗘𝘃𝗲𝗻𝗡𝘂𝗺𝗯𝗲𝗿
 
-Constructor successor(OddNumber):EvenNumber
-Constructor successor(EvenNumber):OddNumber
+Constructor 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿):𝗘𝘃𝗲𝗻𝗡𝘂𝗺𝗯𝗲𝗿
+Constructor 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(𝗘𝘃𝗲𝗻𝗡𝘂𝗺𝗯𝗲𝗿):𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿
