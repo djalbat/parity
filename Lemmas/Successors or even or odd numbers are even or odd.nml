@@ -1,24 +1,24 @@
 Variable k:ℕ
 
 Lemma (SuccessorsOEvenOrOddNumbersAreEvenOrOdd)
-  k:𝗘𝘃𝗲𝗻𝗢𝗿𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿 ⇒ 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝗘𝘃𝗲𝗻𝗢𝗿𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿
+  k:𝖤𝗏𝖾𝗇𝖮𝗋𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋 ⇒ 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖤𝗏𝖾𝗇𝖮𝗋𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋
   Proof
     Suppose
-      k:𝗘𝘃𝗲𝗻𝗢𝗿𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿
+      k:𝖤𝗏𝖾𝗇𝖮𝗋𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋
     Hence
-      k:𝗘𝘃𝗲𝗻𝗢𝗿𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿 ⇒ (k:𝗘𝘃𝗲𝗻𝗡𝘂𝗺𝗯𝗲𝗿 ∨ k:𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿) by AllEvenOrOddNumbersAreEvenOrOdd
-      k:𝗘𝘃𝗲𝗻𝗡𝘂𝗺𝗯𝗲𝗿 ∨ k:𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿 by ModusPonens
+      k:𝖤𝗏𝖾𝗇𝖮𝗋𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋 ⇒ (k:𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ∨ k:𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋) by AllEvenOrOddNumbersAreEvenOrOdd
+      k:𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ∨ k:𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋 by ModusPonens
       Suppose
-        k:𝗘𝘃𝗲𝗻𝗡𝘂𝗺𝗯𝗲𝗿
+        k:𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋
       Then
-        𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝗘𝘃𝗲𝗻𝗢𝗿𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿
-      k:𝗘𝘃𝗲𝗻𝗡𝘂𝗺𝗯𝗲𝗿 ⇒ 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝗘𝘃𝗲𝗻𝗢𝗿𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿 by ConditionalProof
+        𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖤𝗏𝖾𝗇𝖮𝗋𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋
+      k:𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ⇒ 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖤𝗏𝖾𝗇𝖮𝗋𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋 by ConditionalProof
       Suppose
-        k:𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿
+        k:𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋
       Then
-        𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝗘𝘃𝗲𝗻𝗢𝗿𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿
-      k:𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿 ⇒ 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝗘𝘃𝗲𝗻𝗢𝗿𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿 by ConditionalProof
+        𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖤𝗏𝖾𝗇𝖮𝗋𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋
+      k:𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋 ⇒ 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖤𝗏𝖾𝗇𝖮𝗋𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋 by ConditionalProof
     Then
-      𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝗘𝘃𝗲𝗻𝗢𝗿𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿 by ProofByCases
+      𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖤𝗏𝖾𝗇𝖮𝗋𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋 by ProofByCases
   Therefore
-    k:𝗘𝘃𝗲𝗻𝗢𝗿𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿 ⇒ 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝗘𝘃𝗲𝗻𝗢𝗿𝗢𝗱𝗱𝗡𝘂𝗺𝗯𝗲𝗿 by ConditionalProof
+    k:𝖤𝗏𝖾𝗇𝖮𝗋𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋 ⇒ 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖤𝗏𝖾𝗇𝖮𝗋𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋 by ConditionalProof
