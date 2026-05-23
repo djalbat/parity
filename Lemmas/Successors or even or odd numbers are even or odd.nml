@@ -6,7 +6,7 @@ Lemma (SuccessorsOEvenOrOddNumbersAreEvenOrOdd)
     Suppose
       k:𝖤𝗏𝖾𝗇𝖮𝗋𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋
     Hence
-      k:𝖤𝗏𝖾𝗇𝖮𝗋𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋 ⇒ (k:𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ∨ k:𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋) by AllEvenOrOddNumbersAreEvenOrOdd
+      k:𝖤𝗏𝖾𝗇𝖮𝗋𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋 ⇒ (k:𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ∨ k:𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋) from AllEvenOrOddNumbersAreEvenOrOdd
       k:𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ∨ k:𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋 by ModusPonens
       Suppose
         k:𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋
