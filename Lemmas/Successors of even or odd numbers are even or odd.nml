@@ -1,0 +1,26 @@
+Variable k:ℕ
+
+Lemma (SuccessorsOEvenOrOddNumbersAreEvenOrOdd)
+  (k:𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ∨ k:𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋) ⇒ (𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ∨ 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋)
+  Proof
+    Suppose
+      k:𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ∨ k:𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋
+    Hence
+      Suppose
+        k:𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋
+      Hence
+        𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋
+      Then
+        𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ∨ 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋 by DisjunctionLeftIntroduction
+      k:𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ⇒ (𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ∨ 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋) by ConditionalProof
+      Suppose
+        k:𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋
+      Hence
+        𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋
+      Then
+        𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ∨ 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋 by DisjunctionRightIntroduction
+      k:𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋 ⇒ (𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ∨ 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋) by ConditionalProof
+    Then
+      𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ∨ 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋 by ProofByCases
+    Therefore
+    (k:𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ∨ k:𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋) ⇒ (𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ∨ 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k):𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋) by ConditionalProof

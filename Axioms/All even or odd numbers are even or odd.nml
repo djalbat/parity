@@ -1,4 +1,0 @@
-Variable n
-
-Axiom (AllEvenOrOddNumbersAreEvenOrOdd)
-  n:𝖤𝗏𝖾𝗇𝖮𝗋𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋 ⇒ (n:𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ∨ n:𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋)

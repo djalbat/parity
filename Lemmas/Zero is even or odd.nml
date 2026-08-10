@@ -1,4 +1,6 @@
 Lemma (ZeroIsEvenOrOddNumber)
-  𝘻𝘦𝘳𝘰:𝖤𝗏𝖾𝗇𝖮𝗋𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋
+  𝘻𝘦𝘳𝘰:𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ∨ 𝘻𝘦𝘳𝘰:𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋
   Proof
-    𝘻𝘦𝘳𝘰:𝖤𝗏𝖾𝗇𝖮𝗋𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋
+    𝘻𝘦𝘳𝘰:𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋
+    Therefore
+      𝘻𝘦𝘳𝘰:𝖤𝗏𝖾𝗇𝖭𝗎𝗆𝖻𝖾𝗋 ∨ 𝘻𝘦𝘳𝘰:𝖮𝖽𝖽𝖭𝗎𝗆𝖻𝖾𝗋 by DisjunctionRightIntroduction
